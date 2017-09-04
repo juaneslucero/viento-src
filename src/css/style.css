@@ -14,7 +14,7 @@ nav {
 
 #home-section {
   background: url(../img/home.jpeg) no-repeat;
-  min-height: 530px;
+  min-height: 500px;
   background-size: cover;
   background-attachment: fixed; }
   #home-section .dark-overlay {
@@ -23,10 +23,10 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 530px;
+    min-height: 500px;
     border-bottom: #fff 1px solid; }
   #home-section .home-inner {
-    padding-top: 150px; }
+    padding-top: 130px; }
 
 .btn {
   border-radius: 0; }
