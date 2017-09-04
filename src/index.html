@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="libraries/p5.js" type = "text/javascript"></script>
+  <script src="libraries/p5.dom.js" type = "text/javascript"></script>
+  <script language="javascript" type="text/javascript" src="js/Chaos_Game_JS.js"></script>
+  <title>Viento</title>
+</head>
+
+<body id="home">
+  <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+    <div class="container">
+      <span class="navbar-brand mb-0">VIENTO</span>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"><span class="navbar-toggler-icon"></span>
+            </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-bar-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-bar-item">
+            <a href="#about-head" class="nav-link">About</a>
+          </li>
+          <li class="nav-bar-item">
+            <a data-toggle="modal" data-target="#contactModal" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HOME SECTION -->
+  <header id="home-section">
+    <div class="dark-overlay">
+      <div class="home-inner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 d-lg-block">
+              <h1 class="display-1 pb-5">The <em>future</em> is <strong>here.</strong></h1>
+
+              <blockquote class="blockquote">
+                <p class="mb-0">"Any sufficiently advanced technology is indistinguishable from magic."</p>
+                <footer class="blockquote-footer"><cite title="Source Title">Clarke's Third Law</cite></footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- About HEAD-->
+  <section id="about-head">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <div class="p-5">
+            <h1 class="display-4">About.</h1>
+            <p class="lead">We want to <em>revolutionize</em> the way you manage your data, promising a secure and convenient alternative to established Cloud Service Providers.</p>
+            <a href="#" class="btn btn-outline-secondary" data-toggle="modal" data-target="#contactModal">Find out more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About SECTION -->
+  <section class="bg-light py-5" id="about-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/about.jpg" alt="" class="img-fluid mb-3 rounded">
+        </div>
+        <div class="col-md-6">
+          <h3>What we do.</h3>
+          <p>Security and reliability, those are our priorities. While using VIENTO, you will never have to fear about loss of data or your data getting into the wrong hands.</p>
+          <div class="d-flex flex-row">
+            <div class="p-4 align-self-start">
+              <i class="fa fa-lock"></i>
+            </div>
+            <div class="p-4 align-self-end">Secure and reliable: The only one with access to your data is you.</div>
+          </div>
+          <div class="d-flex flex-row">
+            <div class="p-4 align-self-start">
+              <i class="fa fa-flash"></i>
+            </div>
+            <div class="p-4 align-self-end">Fast and Light: Swiftly browse your files and folders so you can get to your relevant data as soon as possible.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- MAIN FOOTER -->
+  <footer id="main-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <div class="py-4">
+            <h1 class="display-4">VIENTO</h1>
+            <p>Copyright &copy; 2017 / Bogotá - Vancouver</p>
+            <button class="btn btn-outline-secondary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Contact Modal -->
+  <div class="modal fade text-dark p-6" id="contactModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="contactModalTitle">Contact Us</h5>
+        </div>
+        <div class="modal-body">
+          <div class="d-flex flex-row">
+            <div class="p-4 align-self-start">
+              <i class="fa fa-envelope-o"></i>
+            </div>
+            <div class="p-4 align-self-end">info@viento.io</div>
+          </div>
+        </div>
+          <div class="text-center"> Bonus: Sierpinski's triangle</div>
+          <br>
+            <div id="canvas-control"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

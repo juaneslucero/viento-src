@@ -1,0 +1,45 @@
+body {
+  background: #333;
+  color: #fff; }
+
+nav {
+  background-color: #0d47a1; }
+  nav a .navbar-brand {
+    font-size: 20px;
+    text-decoration: none; }
+
+.navbar {
+  border-bottom: #fff 1px solid;
+  opacity: 0.8; }
+
+#home-section {
+  background: url(../img/home.jpeg) no-repeat;
+  min-height: 530px;
+  background-size: cover;
+  background-attachment: fixed; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 530px;
+    border-bottom: #fff 1px solid; }
+  #home-section .home-inner {
+    padding-top: 150px; }
+
+.btn {
+  border-radius: 0; }
+
+#about-head {
+  border-bottom: #0d47a1 2px solid; }
+
+#about-section {
+  color: #333;
+  border-bottom: #0d47a1 2px solid; }
+  #about-section .fa {
+    font-size: 30px; }
+
+#canvas-control {
+  margin: auto;
+  padding-bottom: 25px; }
