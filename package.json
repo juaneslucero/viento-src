@@ -1,0 +1,22 @@
+{
+  "name": "viento-src",
+  "version": "1.0.0",
+  "description": "Source for Viento.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juaneslucero/viento-src.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juaneslucero/viento-src/issues"
+  },
+  "homepage": "https://github.com/juaneslucero/viento-src#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
