@@ -28,6 +28,9 @@ nav {
   #home-section .home-inner {
     padding-top: 130px; }
 
+  #home-section h1 {
+      padding-bottom: 30px; }
+
 .btn {
   border-radius: 0; }
 
@@ -43,3 +46,14 @@ nav {
 #canvas-control {
   margin: auto;
   padding-bottom: 25px; }
+
+@media(max-width: 575px) {
+  #home-section .home-inner{
+    padding-top: 50px;
+  }
+
+  #home-section h1{
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
